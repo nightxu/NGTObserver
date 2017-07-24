@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123C332F1F25840100DB95BE /* NSObject+NGTObserverMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C332E1F25840100DB95BE /* NSObject+NGTObserverMake.m */; };
+		123C33321F258BB300DB95BE /* NGTNotificationSignalSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C33311F258BB300DB95BE /* NGTNotificationSignalSource.m */; };
+		123C33351F258D0C00DB95BE /* NSNotificationCenter+NGTObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C33341F258D0C00DB95BE /* NSNotificationCenter+NGTObserver.m */; };
+		123C333A1F258FEE00DB95BE /* NSNotificationCenter+NGTObserverMake.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C33391F258FEE00DB95BE /* NSNotificationCenter+NGTObserverMake.m */; };
+		123C333D1F25963900DB95BE /* NSNotificationCenter+NGTObserverRemain.m in Sources */ = {isa = PBXBuildFile; fileRef = 123C333C1F25963900DB95BE /* NSNotificationCenter+NGTObserverRemain.m */; };
+		126A256D1F24CF97006E7257 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A256C1F24CF97006E7257 /* main.m */; };
+		126A25701F24CF97006E7257 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A256F1F24CF97006E7257 /* AppDelegate.m */; };
+		126A25731F24CF97006E7257 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A25721F24CF97006E7257 /* ViewController.m */; };
+		126A25761F24CF97006E7257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126A25741F24CF97006E7257 /* Main.storyboard */; };
+		126A25781F24CF97006E7257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 126A25771F24CF97006E7257 /* Assets.xcassets */; };
+		126A257B1F24CF97006E7257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 126A25791F24CF97006E7257 /* LaunchScreen.storyboard */; };
+		126A25911F24DFBB006E7257 /* NGTObjectSignalSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A25901F24DFBB006E7257 /* NGTObjectSignalSource.m */; };
+		126A25941F24E241006E7257 /* NGTSignalSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A25931F24E241006E7257 /* NGTSignalSource.m */; };
+		126A25971F24E606006E7257 /* NGTSignalDispose.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A25961F24E606006E7257 /* NGTSignalDispose.m */; };
+		126A259A1F24EF9C006E7257 /* NSObject+NGTObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A25991F24EF9C006E7257 /* NSObject+NGTObserver.m */; };
+		126A259D1F24F084006E7257 /* NGTSignalObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A259C1F24F084006E7257 /* NGTSignalObserver.m */; };
+		126A25A01F24FEC0006E7257 /* NSObject+NGTObserverAutoDealloc.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A259F1F24FEC0006E7257 /* NSObject+NGTObserverAutoDealloc.m */; };
+		126A25A61F25064E006E7257 /* NSObject+NGTObserverRemain.m in Sources */ = {isa = PBXBuildFile; fileRef = 126A25A51F25064E006E7257 /* NSObject+NGTObserverRemain.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		123C332D1F25840100DB95BE /* NSObject+NGTObserverMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NGTObserverMake.h"; sourceTree = "<group>"; };
+		123C332E1F25840100DB95BE /* NSObject+NGTObserverMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NGTObserverMake.m"; sourceTree = "<group>"; };
+		123C33301F258BB300DB95BE /* NGTNotificationSignalSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTNotificationSignalSource.h; sourceTree = "<group>"; };
+		123C33311F258BB300DB95BE /* NGTNotificationSignalSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTNotificationSignalSource.m; sourceTree = "<group>"; };
+		123C33331F258D0C00DB95BE /* NSNotificationCenter+NGTObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+NGTObserver.h"; sourceTree = "<group>"; };
+		123C33341F258D0C00DB95BE /* NSNotificationCenter+NGTObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+NGTObserver.m"; sourceTree = "<group>"; };
+		123C33361F258DA400DB95BE /* NGTObserverToolMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGTObserverToolMacro.h; sourceTree = "<group>"; };
+		123C33371F258F7600DB95BE /* NGTObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGTObserver.h; sourceTree = "<group>"; };
+		123C33381F258FEE00DB95BE /* NSNotificationCenter+NGTObserverMake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+NGTObserverMake.h"; sourceTree = "<group>"; };
+		123C33391F258FEE00DB95BE /* NSNotificationCenter+NGTObserverMake.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+NGTObserverMake.m"; sourceTree = "<group>"; };
+		123C333B1F25963900DB95BE /* NSNotificationCenter+NGTObserverRemain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+NGTObserverRemain.h"; sourceTree = "<group>"; };
+		123C333C1F25963900DB95BE /* NSNotificationCenter+NGTObserverRemain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+NGTObserverRemain.m"; sourceTree = "<group>"; };
+		126A25681F24CF97006E7257 /* NGTObserverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NGTObserverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		126A256C1F24CF97006E7257 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		126A256E1F24CF97006E7257 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		126A256F1F24CF97006E7257 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		126A25711F24CF97006E7257 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		126A25721F24CF97006E7257 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		126A25751F24CF97006E7257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		126A25771F24CF97006E7257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		126A257A1F24CF97006E7257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		126A257C1F24CF97006E7257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		126A258F1F24DFBB006E7257 /* NGTObjectSignalSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTObjectSignalSource.h; sourceTree = "<group>"; };
+		126A25901F24DFBB006E7257 /* NGTObjectSignalSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTObjectSignalSource.m; sourceTree = "<group>"; };
+		126A25921F24E241006E7257 /* NGTSignalSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTSignalSource.h; sourceTree = "<group>"; };
+		126A25931F24E241006E7257 /* NGTSignalSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTSignalSource.m; sourceTree = "<group>"; };
+		126A25951F24E606006E7257 /* NGTSignalDispose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTSignalDispose.h; sourceTree = "<group>"; };
+		126A25961F24E606006E7257 /* NGTSignalDispose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTSignalDispose.m; sourceTree = "<group>"; };
+		126A25981F24EF9C006E7257 /* NSObject+NGTObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NGTObserver.h"; sourceTree = "<group>"; };
+		126A25991F24EF9C006E7257 /* NSObject+NGTObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NGTObserver.m"; sourceTree = "<group>"; };
+		126A259B1F24F084006E7257 /* NGTSignalObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTSignalObserver.h; sourceTree = "<group>"; };
+		126A259C1F24F084006E7257 /* NGTSignalObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTSignalObserver.m; sourceTree = "<group>"; };
+		126A259E1F24FEC0006E7257 /* NSObject+NGTObserverAutoDealloc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NGTObserverAutoDealloc.h"; sourceTree = "<group>"; };
+		126A259F1F24FEC0006E7257 /* NSObject+NGTObserverAutoDealloc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NGTObserverAutoDealloc.m"; sourceTree = "<group>"; };
+		126A25A41F25064E006E7257 /* NSObject+NGTObserverRemain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NGTObserverRemain.h"; sourceTree = "<group>"; };
+		126A25A51F25064E006E7257 /* NSObject+NGTObserverRemain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NGTObserverRemain.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		126A25651F24CF97006E7257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		126A255F1F24CF97006E7257 = {
+			isa = PBXGroup;
+			children = (
+				126A256A1F24CF97006E7257 /* NGTObserverDemo */,
+				126A25691F24CF97006E7257 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		126A25691F24CF97006E7257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				126A25681F24CF97006E7257 /* NGTObserverDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		126A256A1F24CF97006E7257 /* NGTObserverDemo */ = {
+			isa = PBXGroup;
+			children = (
+				126A256E1F24CF97006E7257 /* AppDelegate.h */,
+				126A256F1F24CF97006E7257 /* AppDelegate.m */,
+				126A25711F24CF97006E7257 /* ViewController.h */,
+				126A25721F24CF97006E7257 /* ViewController.m */,
+				126A25821F24CFA6006E7257 /* NGTObserver */,
+				126A25741F24CF97006E7257 /* Main.storyboard */,
+				126A25771F24CF97006E7257 /* Assets.xcassets */,
+				126A25791F24CF97006E7257 /* LaunchScreen.storyboard */,
+				126A257C1F24CF97006E7257 /* Info.plist */,
+				126A256B1F24CF97006E7257 /* Supporting Files */,
+			);
+			path = NGTObserverDemo;
+			sourceTree = "<group>";
+		};
+		126A256B1F24CF97006E7257 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				126A256C1F24CF97006E7257 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		126A25821F24CFA6006E7257 /* NGTObserver */ = {
+			isa = PBXGroup;
+			children = (
+				126A25921F24E241006E7257 /* NGTSignalSource.h */,
+				126A25931F24E241006E7257 /* NGTSignalSource.m */,
+				126A25951F24E606006E7257 /* NGTSignalDispose.h */,
+				126A25961F24E606006E7257 /* NGTSignalDispose.m */,
+				126A259B1F24F084006E7257 /* NGTSignalObserver.h */,
+				126A259C1F24F084006E7257 /* NGTSignalObserver.m */,
+				126A258F1F24DFBB006E7257 /* NGTObjectSignalSource.h */,
+				126A25901F24DFBB006E7257 /* NGTObjectSignalSource.m */,
+				126A25981F24EF9C006E7257 /* NSObject+NGTObserver.h */,
+				126A25991F24EF9C006E7257 /* NSObject+NGTObserver.m */,
+				126A25A41F25064E006E7257 /* NSObject+NGTObserverRemain.h */,
+				126A25A51F25064E006E7257 /* NSObject+NGTObserverRemain.m */,
+				126A259E1F24FEC0006E7257 /* NSObject+NGTObserverAutoDealloc.h */,
+				126A259F1F24FEC0006E7257 /* NSObject+NGTObserverAutoDealloc.m */,
+				123C33361F258DA400DB95BE /* NGTObserverToolMacro.h */,
+				123C33301F258BB300DB95BE /* NGTNotificationSignalSource.h */,
+				123C33311F258BB300DB95BE /* NGTNotificationSignalSource.m */,
+				123C33331F258D0C00DB95BE /* NSNotificationCenter+NGTObserver.h */,
+				123C33341F258D0C00DB95BE /* NSNotificationCenter+NGTObserver.m */,
+				123C333B1F25963900DB95BE /* NSNotificationCenter+NGTObserverRemain.h */,
+				123C333C1F25963900DB95BE /* NSNotificationCenter+NGTObserverRemain.m */,
+				123C332D1F25840100DB95BE /* NSObject+NGTObserverMake.h */,
+				123C332E1F25840100DB95BE /* NSObject+NGTObserverMake.m */,
+				123C33381F258FEE00DB95BE /* NSNotificationCenter+NGTObserverMake.h */,
+				123C33391F258FEE00DB95BE /* NSNotificationCenter+NGTObserverMake.m */,
+				123C33371F258F7600DB95BE /* NGTObserver.h */,
+			);
+			name = NGTObserver;
+			path = ../../NGTObserver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		126A25671F24CF97006E7257 /* NGTObserverDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 126A257F1F24CF97006E7257 /* Build configuration list for PBXNativeTarget "NGTObserverDemo" */;
+			buildPhases = (
+				126A25641F24CF97006E7257 /* Sources */,
+				126A25651F24CF97006E7257 /* Frameworks */,
+				126A25661F24CF97006E7257 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NGTObserverDemo;
+			productName = NGTObserverDemo;
+			productReference = 126A25681F24CF97006E7257 /* NGTObserverDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		126A25601F24CF97006E7257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NightXu;
+				TargetAttributes = {
+					126A25671F24CF97006E7257 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7CXCX9P8W5;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 126A25631F24CF97006E7257 /* Build configuration list for PBXProject "NGTObserverDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 126A255F1F24CF97006E7257;
+			productRefGroup = 126A25691F24CF97006E7257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				126A25671F24CF97006E7257 /* NGTObserverDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		126A25661F24CF97006E7257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				126A257B1F24CF97006E7257 /* LaunchScreen.storyboard in Resources */,
+				126A25781F24CF97006E7257 /* Assets.xcassets in Resources */,
+				126A25761F24CF97006E7257 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		126A25641F24CF97006E7257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123C333A1F258FEE00DB95BE /* NSNotificationCenter+NGTObserverMake.m in Sources */,
+				126A25731F24CF97006E7257 /* ViewController.m in Sources */,
+				126A25941F24E241006E7257 /* NGTSignalSource.m in Sources */,
+				126A25701F24CF97006E7257 /* AppDelegate.m in Sources */,
+				123C33321F258BB300DB95BE /* NGTNotificationSignalSource.m in Sources */,
+				123C332F1F25840100DB95BE /* NSObject+NGTObserverMake.m in Sources */,
+				126A25911F24DFBB006E7257 /* NGTObjectSignalSource.m in Sources */,
+				126A256D1F24CF97006E7257 /* main.m in Sources */,
+				126A259A1F24EF9C006E7257 /* NSObject+NGTObserver.m in Sources */,
+				123C33351F258D0C00DB95BE /* NSNotificationCenter+NGTObserver.m in Sources */,
+				123C333D1F25963900DB95BE /* NSNotificationCenter+NGTObserverRemain.m in Sources */,
+				126A25A01F24FEC0006E7257 /* NSObject+NGTObserverAutoDealloc.m in Sources */,
+				126A259D1F24F084006E7257 /* NGTSignalObserver.m in Sources */,
+				126A25A61F25064E006E7257 /* NSObject+NGTObserverRemain.m in Sources */,
+				126A25971F24E606006E7257 /* NGTSignalDispose.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		126A25741F24CF97006E7257 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126A25751F24CF97006E7257 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		126A25791F24CF97006E7257 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				126A257A1F24CF97006E7257 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		126A257D1F24CF97006E7257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		126A257E1F24CF97006E7257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		126A25801F24CF97006E7257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CXCX9P8W5;
+				INFOPLIST_FILE = NGTObserverDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NGTObserverDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		126A25811F24CF97006E7257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7CXCX9P8W5;
+				INFOPLIST_FILE = NGTObserverDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.NGTObserverDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		126A25631F24CF97006E7257 /* Build configuration list for PBXProject "NGTObserverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126A257D1F24CF97006E7257 /* Debug */,
+				126A257E1F24CF97006E7257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		126A257F1F24CF97006E7257 /* Build configuration list for PBXNativeTarget "NGTObserverDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				126A25801F24CF97006E7257 /* Debug */,
+				126A25811F24CF97006E7257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 126A25601F24CF97006E7257 /* Project object */;
+}
